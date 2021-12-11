@@ -1,6 +1,6 @@
 const d = document;
 
-const data = fetch("public/juguetes.json")
+const data = fetch("https://server-juegos.herokuapp.com/api/juguetes")
   .then((r) => r.json())
   .then((data) => {
     console.log("in async");

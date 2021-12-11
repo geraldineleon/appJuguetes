@@ -1,4 +1,4 @@
-const datosBuenos = fetch("public/juguetes.json")
+const datosBuenos = fetch("https://server-juegos.herokuapp.com/api/juguetes")
   .then((r) => r.json())
   .then((data) => {
     return data;
