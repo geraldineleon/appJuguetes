@@ -8,8 +8,6 @@ const data = fetch("https://server-juegos.herokuapp.com/api/juguetes")
   });
 
 const formB = d.querySelector(".formBusqueda");
-const formC = d.querySelector(".formCarrito");
-const formP = d.querySelector(".formPedido");
 
 formB.addEventListener("submit", (e) => {
   e.preventDefault();
